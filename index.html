@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" class=" usyvdii idc0_336"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet">
+    <title>INLG 2025 tutorial - Visual and Task Context for Multi-Modal Reference</title>
+  </head>
+  <body class="vsc-initialized" style="">
+    <div class="container bg-light">
+        <br>
+        <h2>Visual and Task Context for Multi-Modal Reference</h2>
+        <p class="lead">A <a href="https://2025.inlgmeeting.org">INLG 2025</a> tutorial by <a href="X">Nikolai Ilinykh</a> (University of Gothenburg, Sweden), <a href="X">Simon Dobnik</a> (University of Gothenburg, Sweden), <a href="X">X</a> (X), <a href="X">X</a> (X) and <a href="X">X</a> (X).</p>
+
+        <p class="lead">Slides:<br>
+        &#8226; Part 1: <a href=X>What is to ``refer''?</a> <br>
+        &#8226; Part 2: <a href=X>Manifestation of reference in tasks and contexts</a><br>
+        &#8226; Part 3: <a href=X>Evaluation of reference</a><br>
+        &#8226; Hands-on session: <a href=X>Code</a>
+        
+        </p>
+
+        <p class="lead">
+
+            Our tutorial aims to give researchers a single, context-aware toolkit for evaluating how vision-and-language models produce reference.
+            Multi-modal systems are advancing faster than their evaluation benchmarks.
+            Without consistent, context-sensitive tests, progress is hard to measure.
+            This tutorial is thus timely as it unifies the latest methods, mapping the key visual and task factors important for modelling referring, and packaging them into a ready-to-use resource.
+        </p>
+
+        <p class="lead">
+
+            Because context -- both the visual alternatives available and the task of referring to a target -- shapes human referring expressions <a href="#bib-frank2012">(Frank et al., 2012)</a>, vision-and-language text generation models must properly understand context of reference.
+            Evaluating reference is challenging precisely because it is so context-dependent, spanning the visual scene and the broader task setting.
+            
+            In the last few years, there has been an increased
+        interest in building multimodal (vision-language) models that are
+        pretrained on larger but noisier datasets where the two modalities (e.g.,
+        image and text) loosely correspond to each other (e.g., ViLBERT and
+        CLIP).  Given a task (such as visual question answering), these models
+        are then often fine-tuned on task-specific supervised datasets. In
+        addition to the larger pretraining datasets, the transformer
+        architecture and in particular self-attention applied to two modalities
+        are responsible for the impressive performance of the recent pretrianed
+        models on downstream tasks.
+        
+        This approach is appealing for a few reasons: first,  the pretraining
+        datasets are often automatically curated from the Web, providing huge
+        datasets with negligible collection costs. Second, we can train large
+        models once, and reuse them for various tasks. Finally, these
+        pretraining approach performs better or on par to previous task-specific
+        models.
+       
+        An interesting question is whether these pretrained models -- in
+        addition to their good task performance -- learn representations that
+        are better at capturing the alignments between the two modalities. In
+        this tutorial, we focus on recent vision-language pretraining paradigms.
+        Our goal is to first provide the background on image--language datasets,
+        benchmarks, and modeling innovations before the multimodal pretraining
+        area. Next we discuss the different family of models used for
+        vision-language pretraining, highlighting their strengths and
+        shortcomings. Finally, we discuss the limits of vision-language
+        pretraining through statistical learning, and the need for alternative
+        approaches such as causal modeling.
+    
+        </p>
+        
+          <p class="lead">Click <a href="nikolai.ilinykh@gu.se">here to
+          contact us</a>.</p>
+
+        <br>
+
+    </div>
+
+    <!-- Add bibliography section before </body> -->
+<div class="container">
+  <h3>References</h3>
+  <ul>
+    <li id="bib-frank2012">Frank 2012. "Predicting Pragmatic Reasoning in Language Games" <i>Journal Name</i>.</li>
+  </ul>
+</div>
+  </body>
+</html>
