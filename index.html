@@ -31,36 +31,7 @@
             Because context -- both the visual alternatives available and the task of referring to a target -- shapes human referring expressions <a href="#bib-frank2012">(Frank et al., 2012)</a>, vision-and-language text generation models must properly understand context of reference.
             Evaluating reference is challenging precisely because it is so context-dependent, spanning the visual scene and the broader task setting.
             
-            In the last few years, there has been an increased
-        interest in building multimodal (vision-language) models that are
-        pretrained on larger but noisier datasets where the two modalities (e.g.,
-        image and text) loosely correspond to each other (e.g., ViLBERT and
-        CLIP).  Given a task (such as visual question answering), these models
-        are then often fine-tuned on task-specific supervised datasets. In
-        addition to the larger pretraining datasets, the transformer
-        architecture and in particular self-attention applied to two modalities
-        are responsible for the impressive performance of the recent pretrianed
-        models on downstream tasks.
-        
-        This approach is appealing for a few reasons: first,  the pretraining
-        datasets are often automatically curated from the Web, providing huge
-        datasets with negligible collection costs. Second, we can train large
-        models once, and reuse them for various tasks. Finally, these
-        pretraining approach performs better or on par to previous task-specific
-        models.
-       
-        An interesting question is whether these pretrained models -- in
-        addition to their good task performance -- learn representations that
-        are better at capturing the alignments between the two modalities. In
-        this tutorial, we focus on recent vision-language pretraining paradigms.
-        Our goal is to first provide the background on image--language datasets,
-        benchmarks, and modeling innovations before the multimodal pretraining
-        area. Next we discuss the different family of models used for
-        vision-language pretraining, highlighting their strengths and
-        shortcomings. Finally, we discuss the limits of vision-language
-        pretraining through statistical learning, and the need for alternative
-        approaches such as causal modeling.
-    
+           
         </p>
         
           <p class="lead">Click <a href="nikolai.ilinykh@gu.se">here to
