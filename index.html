@@ -8,7 +8,8 @@
     <div class="container bg-light">
         <br>
         <h2>Visual and Task Context for Multi-Modal Reference</h2>
-        <p class="lead">A <a href="https://2025.inlgmeeting.org">INLG 2025</a> tutorial by <a href="X">Nikolai Ilinykh</a> (University of Gothenburg, Sweden), <a href="X">Simon Dobnik</a> (University of Gothenburg, Sweden), <a href="X">X</a> (X), <a href="X">X</a> (X) and <a href="X">X</a> (X).</p>
+        <br>
+        <p class="lead">An <a href="https://2025.inlgmeeting.org">INLG 2025</a> tutorial by <a href="X">Nikolai Ilinykh</a> (University of Gothenburg, Sweden), <a href="X">Simon Dobnik</a> (University of Gothenburg, Sweden), <a href="X">Simeon Junker</a> (University of Bielefeld, Germany) and <a href="X">Sina Zarrieß</a> (University of Bielefeld, Germany).</p>
 
         <p class="lead">Slides:<br>
         &#8226; Part 1: <a href=X>What is to ``refer''?</a> <br>
@@ -20,18 +21,68 @@
 
         <p class="lead">
 
-            Our tutorial aims to give researchers a single, context-aware toolkit for evaluating how vision-and-language models produce reference.
-            Multi-modal systems are advancing faster than their evaluation benchmarks.
-            Without consistent, context-sensitive tests, progress is hard to measure.
-            This tutorial is thus timely as it unifies the latest methods, mapping the key visual and task factors important for modelling referring, and packaging them into a ready-to-use resource.
+            <b>Target audience</b> The tutorial assumes basic knowledge of NLP and linguistics.
+            It is meant for anyone investigating text generation in multimodal settings -- including the questions of unwanted (e.g., social) bias.
+            The tutorial is aimed at researchers and practitioners who want to study reference in multimodal, task-oriented settings rather than in text-only NLP.
+            Colleagues working on referring expression generation as well as those focused on model evaluation and interpretability, are likely to find it particularly useful.
+            We target researchers at different levels of expertise.
+            Newcomers will discover the spectrum of vision-language tasks where reference matters; intermediate researchers will learn about metrics and probes for tracking model-produced reference; advanced NLG experts will learn how state-of-the-art multi-modal LLMs can be interpreted for referring.
+
         </p>
 
         <p class="lead">
 
-            Because context -- both the visual alternatives available and the task of referring to a target -- shapes human referring expressions <a href="#bib-frank2012">(Frank et al., 2012)</a>, vision-and-language text generation models must properly understand context of reference.
-            Evaluating reference is challenging precisely because it is so context-dependent, spanning the visual scene and the broader task setting.
+            <b>Tutorial overview</b> Referring to "things" is fundamental in human language. Automatic models of human language have been long studied to capture this crucial ability. With an increasing number of benchmarks, models, and especially evaluation metrics for studying of reference in contexts which are not text-only, it becomes challenging to systematise and crystallise the progress made in this area. This tutorial aims to fill this gap by providing a comprehensive overview of the state-of-the-art in multi-modal reference. Our goal is provide a single toolkit for studying and evaluating how vision-and-language models deal with reference in language.
+
+            <br><br>
+
+            The toolkit consists of a set of resources designed to generalise the research on reference in multimodal contexts. These resources include datasets, evaluation metrics, and analysis tools that can be applied across different tasks and models. We will specifically focus on the role of the task and visual information in modelling reference. This tutorial is thus timely as it unifies the latest methods, mapping the key visual and task factors important for modelling referring, and packaging them into a ready-to-use resource.
+
+            <br><br>
+
+            While the tutorial introduces a technical toolkit, we will guide you through the code examples, so no need to worry. Our focus is to ensure that all participants have an idea of how they can use the code for their own research. We will use Python and Google Colab and if you are new to programming, we will guide you every step of the way
+
+            <br><br>
+
+            Do you need to study reference in your own research? Are you looking for information on existing tasks and evaluation metrics? We got you covered -- this tutorial will provide you with the overview and tools you need.
             
-           
+            We will start with an introduction to the concept of reference, covering theoretical background and key are in multi-modal NLP where reference is crucial.
+            
+            We will continue with the detailed description of the variety of multi-modal tasks with each of them requiring models to produce and analyse reference.
+            
+            We will then move to the discussion of advantages and disadvantages of different evaluation metrics used to evaluate reference in multi-modal models.
+            
+            We will conclude with the hands-on session, in which we will demonstrate how reference can be studied and evaluated with multi-modal LLMs on the number of multi-modal tasks such as image captioning, longer image description generation, referring expression generation and visual dialogue.
+
+            <br><br>
+
+            Workshop objectives. The participants will:
+
+            1.
+            2.
+
+            <br><br>
+
+            Learning outcomes
+
+            1.
+            2.
+
+            <br><br>
+
+            Technical requirements
+
+            1.
+            2.
+
+            <br><br>
+
+            Additional information
+
+            1.
+            2.
+
+
         </p>
         
           <p class="lead">Click <a href="nikolai.ilinykh@gu.se">here to
@@ -41,12 +92,5 @@
 
     </div>
 
-    <!-- Add bibliography section before </body> -->
-<div class="container">
-  <h3>References</h3>
-  <ul>
-    <li id="bib-frank2012">Frank 2012. "Predicting Pragmatic Reasoning in Language Games" <i>Journal Name</i>.</li>
-  </ul>
-</div>
   </body>
 </html>
